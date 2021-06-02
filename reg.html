@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 align = center> registration page</h1>
+        <form action="" class="main-form needs-validation" novalidate>
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="firstname">firstname</label>
+                        <input type="text" name="firstname" id="firstname" class="form-control is-invalid">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="lastname">lastname</label>
+                        <input type="text" name="lastname" id="lastname" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="gender">gender</label>
+                        <select name="gender" id="gender" class="form-control is-invalid">
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                            <option value="others">others</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="course">course</label>
+                        <select name="course" id="course" class="form-control">
+                            <option value="btech">btech</option>
+                            <option value="mtech">mtech</option>
+                            <option value="mba">mba</option>
+                        </select>    
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <label for="address">address</label>
+                <textarea class="form-control" id="comment" rows="3"></textarea>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="phone">phone number</label>
+                        <input type="text" name="phone" id="phone" class="form-control is-invalid">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="username">username</label>
+                        <input type="text" name="username" id="username" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col">
+                    <div class="form-group">
+                        <label for="password">password</label>
+                        <input type="password" name="password" id="password" class="form-control is-invalid">
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="form-group">
+                        <label for="repeat_password">repeat password</label>
+                        <input type="password" name="repeat_password" id="repeat_password" class="form-control">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <label for="phone">phone number</label>
+                <input type="text" name="phone" id="phone" class="form-control" required>
+            </div>
+
+            
+            <center><button type="submit" class="btn btn-primary">submit</button></center>
+        </form>
+    </body>
+</html>

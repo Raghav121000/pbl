@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    </head>
+    <body>
+        <h1 align = center ><b><u>student details</u></b></h1>
+        <form action="upload.php" method="post" enctype="multipart/form-data" class="main-form needs-validation" novalidate>
+            <div class="container">
+                <link type="text/css" rel="stylesheet" href="style2.css">
+                <hr style="height:10px; background-color: blue;">
+                <center>
+                    <input type="text" placeholder="student id" name="stuid" id="stuid" required>
+                    <br>
+                    <input type="text" placeholder="student name" name="stuname" id="stuname" required>
+                    <br>
+                    <input type="text" placeholder="upload img" name="img" id="img" required>
+                    <br>
+                    <!--<button type="submit" class="choosebtn">choose file</button><label> no img selected</label>-->
+                    <br>
+                    Select image to upload:
+                    <br>
+                    <br>
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                    <br>
+                    <br>
+                    <input type="submit" value="upload image" name="submit">
+                    <!--<button type="submit" class="uploadbtn">upload</button>-->
+                    <br>
+                    <input type="text" placeholder="email id" name="email" id="email" required>
+                    <br>
+                    <input type="text" placeholder="college name" name="clgname" id="clgname" required>
+                    <br>
+                    <input type="text" placeholder="hall ticket no" name="htkno" id="htkno" required>
+                    <br>
+                    <input type="text" placeholder="center name" name="cname" id="cname" required>
+                    <br>
+                    <input type="text" placeholder="center number" name="cno" id="cno" required>
+                    <br>
+                    <button type="submit" class="registerbtn">register</button>
+                </center>
+            </div>
+            <hr style="height:10px; background-color: blue;">
+        </form>
+    </body>  
+</html>  
+
+
+
